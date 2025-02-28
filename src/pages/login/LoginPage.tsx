@@ -77,7 +77,7 @@ export const LoginPage = () => {
                     </div>
                 </div>
                 <div className='lg:w-1/2 w-full flex flex-col items-center justify-center font-medium'>
-                    <div className='pl-2 xs:pl-0 min-w-[280px]  sm:min-w-96'>
+                    <div className='pl-2 xxs:pl-0 min-w-[280px]  sm:min-w-96'>
                         {renderLoginForm()}
                         <div
                             onClick={() => {

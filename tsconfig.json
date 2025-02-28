@@ -4,13 +4,13 @@
     "compilerOptions": {
         "baseUrl": "./src",
         "paths": {
-            "@/": ["./"],
             "@routes": ["routes"],
             "@pages": ["pages"],
             "@components": ["components"],
             "@assets": ["assets"],
             "@constants": ["constants"],
-            "@layouts": ["layouts"]
+            "@layouts": ["layouts"],
+            "@ui": ["ui"]
         }
     }
 }
