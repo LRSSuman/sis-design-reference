@@ -6,6 +6,7 @@
     --color-background: #eff1f7;
     --color-primary: #00a6f4;
     --color-primary-dark: #2f7cf0;
+    --color-primary-light: #cfecf6;
 
     /* font */
     --color-font-primary: #2e4765;
@@ -15,5 +16,10 @@
 
     /* breaking points */
     --breakpoint-xxs: 22rem;
-    --breakpoint-xs: 28rem;
+    --breakpoint-xs: 32rem;
+
+    /* box shadow */
+    --shadow-section: 0 1px 5px 2px rgba(0, 0, 0, 0.25);
+    --shadow-header: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    --shadow-sidebar: 3px 4px 11px 1px rgba(0, 0, 0, 0.25);
 }

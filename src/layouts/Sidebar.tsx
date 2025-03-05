@@ -49,7 +49,7 @@ export const Sidebar = ({ isSidebarOpen, setIsSidebarOpen, isMobile }: SidebarPr
 
     return (
         <ExpendableSidebar isMobile={isMobile} isSidebarOpen={isSidebarOpen}>
-            <div className='h-full bg-white py-4 flex flex-col shadow-2xl'>
+            <div className='h-full bg-white py-4 flex flex-col shadow-sidebar'>
                 <div className='flex items-center'>
                     <div className='flex items-center gap-2 px-4 py-2'>
                         <div className='w-14 h-14 flex-shrink-0'>

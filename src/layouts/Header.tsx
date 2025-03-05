@@ -34,7 +34,7 @@ export const Header = ({ isMenuBtnVisible, setIsSidebarOpen }: HeaderProps) => {
     }, [pathname]);
 
     return (
-        <div className='bg-background shadow-lg'>
+        <div className='relative md:z-20 bg-background shadow-header'>
             <div className='relative flex items-center justify-between max-w-7xl mx-auto px-4 py-3 xs:py-2 sm:px-6 lg:px-8'>
                 <div className='flex items-center gap-2'>
                     {isMenuBtnVisible && (

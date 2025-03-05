@@ -10,7 +10,10 @@
             "@assets": ["assets"],
             "@constants": ["constants"],
             "@layouts": ["layouts"],
-            "@ui": ["ui"]
+            "@ui": ["ui"],
+            "@hooks": ["hooks"],
+            "@data": ["data"],
+            "@utils": ["utils"]
         }
     }
 }

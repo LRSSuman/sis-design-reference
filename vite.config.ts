@@ -14,6 +14,9 @@ export default defineConfig({
             '@constants': resolve(__dirname, 'src/constants'),
             '@layouts': resolve(__dirname, 'src/layouts'),
             '@ui': resolve(__dirname, 'src/ui'),
+            '@hooks': resolve(__dirname, 'src/hooks'),
+            '@data': resolve(__dirname, 'src/data'),
+            '@utils': resolve(__dirname, 'src/utils'),
         },
     },
     server: {
